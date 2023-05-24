@@ -3,7 +3,7 @@ import * as tf from "@tensorflow/tfjs";
 
 const ModelComponent = () => {
   const [stream, setStream] = useState(null);
-  const [prediction, setPrediction] = useState('stomach-pain');
+  const [prediction, setPrediction] = useState('Fever, Head-ache, Stomach-ache');
   const videoRef = useRef(null);
   const predictt=[1];
   var sample=0;
